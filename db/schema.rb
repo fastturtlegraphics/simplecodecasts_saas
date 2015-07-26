@@ -11,9 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150726042803) do
+ActiveRecord::Schema.define(version: 20150726052336) do
 
   create_table "c_ontacts", force: true do |t|
+  end
+
+  create_table "contacts", force: true do |t|
   end
 
 end
